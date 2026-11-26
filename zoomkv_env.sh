@@ -1,0 +1,9 @@
+export no_proxy=127.0.0.1,localhost,::1
+export CXX=/home/anaconda3/envs/zoomkv_sglang/bin/x86_64-conda-linux-gnu-c++
+export MODEL=/root/zoomkv_sglang/models/Qwen3-8B
+export CUDAHOSTCXX=/home/anaconda3/envs/zoomkv_sglang/bin/x86_64-conda-linux-gnu-g++
+export NO_PROXY=127.0.0.1,localhost,::1
+export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu:/home/anaconda3/envs/zoomkv_sglang/lib:/home/anaconda3/envs/zoomkv_sglang/lib64:/home/anaconda3/envs/zoomkv_sglang/lib:/home/anaconda3/envs/zoomkv_sglang/lib64:/home/anaconda3/envs/zoomkv_sglang/lib/python3.10/site-packages/nvidia/cu13/lib:/home/anaconda3/envs/zoomkv_sglang/lib:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/lib64:/usr/local/cuda/lib64:
+export CUDA_HOME=/home/anaconda3/envs/zoomkv_sglang
+export PATH=/home/anaconda3/envs/zoomkv_sglang/bin:/home/anaconda3/envs/zoomkv_sglang/bin:/home/anaconda3/envs/zoomkv_sglang/lib/python3.10/site-packages/nvidia/cu13/bin:/root/.cargo/bin:/usr/local/cuda-12.2/bin:/root/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/usr/local/cuda-12.2/bin:/home/anaconda3/envs/zoomkv_sglang/bin:/home/anaconda3/condabin:/usr/local/cuda/bin:/home/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-10.2/bin:/opt/neo4j-community-5.19.0/bin:/root/miniconda3/bin:/usr/local/go/bin;c:\Users\lenovo\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand:/root/miniconda3/bin:/usr/local/go/bin
+export CC=/home/anaconda3/envs/zoomkv_sglang/bin/x86_64-conda-linux-gnu-cc

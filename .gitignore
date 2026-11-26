@@ -1,0 +1,19 @@
+# 模型权重。服务器上 models/ 约 75GB，不能进仓库。
+models/
+
+# 评测数据与运行产物
+datasets/
+results/
+benchmark_results/
+nsys_reports/
+*.nsys-rep
+*.sqlite
+*.qdrep
+sglang_*.jsonl
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+*.egg-info/

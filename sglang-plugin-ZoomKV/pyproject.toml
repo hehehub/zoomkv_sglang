@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sglang-zoomkv"
+version = "0.1.0"
+description = "ZoomKV out-of-tree attention backend for SGLang"
+requires-python = ">=3.10"
+dependencies = [
+    "ninja",
+]
+
+[project.entry-points."sglang.srt.plugins"]
+sglang_zoomkv = "sglang_zoomkv:load_plugin"
+
+[tool.setuptools.packages.find]
+include = ["sglang_zoomkv*"]
+
+[tool.setuptools.package-data]
+"sglang_zoomkv.kernels" = [
+    "**/*.cu",
+    "**/*.cpp",
+    "SOURCES.md",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "gpu: requires a CUDA-capable PyTorch runtime and may JIT-compile native kernels",
+]
